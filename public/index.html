@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Polyglot Text Analyzer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
+    button {
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 1rem;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Polyglot Text Analyzer</h1>
+  <p>Paste some text below and hit “Analyze” to see word frequencies (computed by C++).</p>
+
+  <textarea id="inputText" placeholder="Type or paste text here…"></textarea>
+  <button id="analyzeBtn">Analyze</button>
+
+  <h2>Result (word counts):</h2>
+  <pre id="resultArea">{ }</pre>
+
+  <!-- BUG: The script path is misspelled -->
+  <script src="appj.js"></script>
+</body>
+</html>
