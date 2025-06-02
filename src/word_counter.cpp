@@ -22,6 +22,7 @@ static std::string normalize(const std::string &s) {
 }
 
 int main() {
+    std::cout << "--- Polyglot Analyzer ---" << endl;
     std::unordered_map<std::string, int> freq;
     std::string line;
     while (std::getline(std::cin, line)) {
